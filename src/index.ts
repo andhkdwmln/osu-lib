@@ -24,10 +24,9 @@ export class Osu {
      * @param username The username of the user you want to get the recent play of.
      * @param mode The mode of the user you want to get the recent play of.
      * @returns The recent play of the user.
-     * @description Get the recent play of a user by their username and mode.
      * @description Mode: 0 = osu!, 1 = Taiko, 2 = Fruits, 3 = Mania
      */
-    async getRecentPlay(username: string, mode: number) {
+    async userRecentPlay(username: string, mode: number) {
         return await userRecentplay(username, mode);
     }
 
