@@ -1,4 +1,4 @@
-import { userId, userData } from './functions/index'; 
+import { userId, userData, userRecentplay } from './functions/index'; 
 
 export class Osu {
 
@@ -16,9 +16,19 @@ export class Osu {
      * @returns The Info of users account.
      * @description Get the info of user by their username.
      */
-
     async userData(username: string) {
         return await userData(username);
+    }
+
+    /**
+     * @param username The username of the user you want to get the recent play of.
+     * @param mode The mode of the user you want to get the recent play of.
+     * @returns The recent play of the user.
+     * @description Get the recent play of a user by their username and mode.
+     * @description Mode: 0 = osu!, 1 = Taiko, 2 = Fruits, 3 = Mania
+     */
+    async getRecentPlay(username: string, mode: number) {
+        return await userRecentplay(username, mode);
     }
 
 }
