@@ -2,7 +2,7 @@ import fetch from 'node-fetch';
 
 import { userId } from './users_id';
 
-export const userRecentplay = async (username: string, mode: number) => {
+export async function userRecentplay (username: string, mode: number) {
 
     try {
 
