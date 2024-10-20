@@ -1,18 +1,15 @@
 {
   "name": "osu-api",
   "version": "1.0.0",
-  "description": "A simple module for a certain Rhythm Game",
+  "description": "某リズムゲームの非公式 API 。",
   "main": "./lib/index.js",
   "scripts": {
     "clean": "rimraf lib && rimraf typings",
     "build": "npm run clean && tsc --build tsconfig.json",
-    "test": "npm run build && node ."
+    "test": "rimraf lib && rimraf typings && npm run build && node ."
   },
   "repository": {
     "url": "git+https://github.com/andhkdwmln/osu-api.git"
-  },
-  "publishConfig": {
-    "@andhkdwmln:registry": "https://npm.pkg.github.com"
   },
   "author": "Andhika Dwi Maulana",
   "license": "MIT",
