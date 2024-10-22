@@ -22,3 +22,26 @@
 
 * [Git](https://git-scm.com/downloads)
 * [NodeJS](https://nodejs.org/en/download/prebuilt-installer)
+
+## 🚀 Quick Setup
+
+- Install `Git` and `NodeJS`
+- Clone Repository `git clone https://github.com/andhkdwmln/osu-api`
+- Move to directory `cd osu-api`
+- Install required module `npm install`
+- Build `npm run build`
+- Compiled code inside `lib` folder
+
+## 🚀 Example
+
+``` Javascript
+const { Osu } = require('./lib/index');
+const bot = new Osu();
+
+(async () => {
+    
+    const userdata = await bot.userData('peppy');
+    console.log(userdata);
+
+})();
+```
