@@ -16,8 +16,8 @@ export async function rankByperformance (mode: number = 0, country: string = 'al
 
         const $ = load(res);
 
-        const length = $('#scores > div > table > tbody > tr').length;
-
+        const length = $('body > div.osu-layout__section.osu-layout__section--full > div.osu-page.osu-page--generic > div.ranking-page > table > tbody > tr').length;
+        
         if(length == 0) {
 
             return {
@@ -29,7 +29,7 @@ export async function rankByperformance (mode: number = 0, country: string = 'al
             const result = [];
             for(let i = 1; i <= length; i++) {
 
-                let rank = $('#scores > div > table > tbody > tr:nth-child('+i+') > td.ranking-page-table__column.ranking-page-table__column--rank').text().trim().replace(/#/g, '');
+                let rank = $('body > div.osu-layout__section.osu-layout__section--full > div.osu-page.osu-page--generic > div.ranking-page > table > tbody > tr:nth-child(' + i + ') > td.ranking-page-table__column.ranking-page-table__column--rank').text().trim().replace(/#/g, '');
                 let user = $('#scores > div > table > tbody > tr:nth-child('+i+') > td:nth-child(2) > div > a.ranking-page-table__user-link-text.js-usercard').text().trim();
                 let country = $('#scores > div > table > tbody > tr:nth-child('+i+') > td:nth-child(2) > div > a:nth-child(1) > span').attr('title');
                 let accuracy = $('#scores > div > table > tbody > tr:nth-child('+i+') > td:nth-child(3)').text().trim();
