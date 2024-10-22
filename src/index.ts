@@ -1,4 +1,4 @@
-import { userId, userData, userRecentplay, userFirstplace, userBestplay, rankByperformance } from './functions/index'; 
+import { userId, userData, userRecentplay, userFirstplace, userBestplay } from './functions/index'; 
 
 export class Osu {
 
@@ -50,20 +50,6 @@ export class Osu {
      */
     async userBestPlay(username: string, mode: number) {
         return await userBestplay(username, mode);
-    }
-
-
-    /* ================== Ranking ================== */
-    
-    /**
-     * @param mode The mode of the user you want to get the first place of.
-     * @param country The country of the user you want to get the first place of.
-     * @param variant The variant of the user you want to get the first place of.
-     * @returns The ranking of the user by performance.
-     * @description Mode: 0 = osu!, 1 = Taiko, 2 = Fruits, 3 = Mania
-     */
-    async rankByPerformance(mode: number = 0, country: string = 'all', variant: number = 0) {
-        return await rankByperformance(mode, country, variant);
     }
 
 }
