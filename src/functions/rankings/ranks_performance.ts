@@ -22,7 +22,7 @@ export async function rankByperformance (mode: number = 0, country: string = 'al
 
             return {
                 status: 404,
-                message: 'NO_DATA'
+                message: 'No data found.',
             }
         } else {
 
