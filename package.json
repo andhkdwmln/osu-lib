@@ -1,5 +1,5 @@
 {
-  "name": "@andhkdwmln/osu-api",
+  "name": "osu-api",
   "version": "1.0.0",
   "description": "某リズムゲームの非公式 API 。",
   "main": "./lib/index.js",
@@ -10,9 +10,6 @@
   },
   "repository": {
     "url": "https://github.com/andhkdwmln/osu-api.git"
-  },
-  "publishConfig": {
-    "@andhkdwmln:registry": "https://npm.pkg.github.com"
   },
   "author": "Andhika Dwi Maulana",
   "license": "MIT",
