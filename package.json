@@ -11,6 +11,9 @@
   "repository": {
     "url": "git+https://github.com/andhkdwmln/osu-api.git"
   },
+  "publishConfig": {
+    "@andhkdwmln:registry": "https://npm.pkg.github.com"
+  },
   "author": "Andhika Dwi Maulana",
   "license": "MIT",
   "dependencies": {
