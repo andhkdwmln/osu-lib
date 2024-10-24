@@ -9,7 +9,7 @@
     "test": "rimraf lib && rimraf typings && npm run build && node ."
   },
   "repository": {
-    "url": "https://github.com/andhkdwmln/osu-api.git"
+    "url": "git://github.com/andhkdwmln/osu-api.git"
   },
   "author": "Andhika Dwi Maulana",
   "license": "MIT",
