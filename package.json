@@ -9,7 +9,7 @@
     "test": "rimraf lib && rimraf typings && npm run build && node ."
   },
   "repository": {
-    "url": "git+https://github.com/andhkdwmln/osu-api.git"
+    "url": "https://github.com/andhkdwmln/osu-api.git"
   },
   "publishConfig": {
     "@andhkdwmln:registry": "https://npm.pkg.github.com"
