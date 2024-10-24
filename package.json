@@ -1,5 +1,5 @@
 {
-  "name": "osu-api",
+  "name": "@andhkdwmln/osu-api",
   "version": "1.0.0",
   "description": "某リズムゲームの非公式 API 。",
   "main": "./lib/index.js",
