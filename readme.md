@@ -1,8 +1,8 @@
-![osu-unapi](https://socialify.git.ci/andhkdwmln/osu-unapi/image?description=1&font=KoHo&forks=1&issues=1&language=1&name=1&owner=1&pattern=Circuit%20Board&pulls=1&stargazers=1&theme=Dark)
+![osu-lib](https://socialify.git.ci/andhkdwmln/osu-lib/image?description=1&font=KoHo&forks=1&issues=1&language=1&name=1&owner=1&pattern=Circuit%20Board&pulls=1&stargazers=1&theme=Dark)
 
 <div align="center">
-  <img alt="GitHub" src="https://img.shields.io/github/license/andhkdwmln/osu-unapi?style=for-the-badge">
-  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/andhkdwmln/osu-unapi?style=for-the-badge">
+  <img alt="GitHub" src="https://img.shields.io/github/license/andhkdwmln/osu-lib?style=for-the-badge">
+  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/andhkdwmln/osu-lib?style=for-the-badge">
 </div>
 
 <br>
@@ -26,8 +26,8 @@
 ## 🚀 Quick Setup
 
 - Install `Git` and `NodeJS`
-- Clone Repository `git clone https://github.com/andhkdwmln/osu-unapi`
-- Move to directory `cd osu-unapi`
+- Clone Repository `git clone https://github.com/andhkdwmln/osu-lib`
+- Move to directory `cd osu-lib`
 - Install required module `npm install`
 - Build `npm run build`
 - Compiled code inside `lib` folder
