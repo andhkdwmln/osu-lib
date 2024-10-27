@@ -1,5 +1,5 @@
 {
-  "name": "osu-api",
+  "name": "osu-unapi",
   "version": "1.0.0",
   "description": "某リズムゲームの非公式 API 。",
   "main": "./lib/index.js",
@@ -9,7 +9,7 @@
     "test": "rimraf lib && rimraf typings && npm run build && node ."
   },
   "repository": {
-    "url": "git+https://github.com/andhkdwmln/osu-api.git"
+    "url": "git+https://github.com/andhkdwmln/osu-unapi.git"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
@@ -26,9 +26,9 @@
     "rimraf": "^5.0.1"
   },
   "bugs": {
-    "url": "https://github.com/andhkdwmln/osu-api/issues"
+    "url": "https://github.com/andhkdwmln/osu-unapi/issues"
   },
-  "homepage": "https://github.com/andhkdwmln/osu-api#readme",
+  "homepage": "https://github.com/andhkdwmln/osu-unapi#readme",
   "directories": {
     "lib": "lib"
   }
