@@ -32,7 +32,7 @@
 - Build `npm run build`
 - Compiled code inside `lib` folder
 
-## 🚀 Example
+## 🚀 Usage
 
 ``` Javascript
 const { Osu } = require('./lib/index');
