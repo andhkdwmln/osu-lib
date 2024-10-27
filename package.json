@@ -12,7 +12,7 @@
     "url": "git+https://github.com/andhkdwmln/osu-unapi.git"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
+    "@andhkdwmln:registry": "https://npm.pkg.github.com"
   },
   "author": "Andhika Dwi Maulana",
   "license": "MIT",
