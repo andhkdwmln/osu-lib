@@ -1,6 +1,6 @@
 {
   "name": "osu-lib",
-  "version": "1.0.0",
+  "version": "1.0",
   "description": "某リズムゲームの非公式 API 。",
   "main": "./lib/index.js",
   "scripts": {
